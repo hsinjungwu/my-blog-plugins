@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var url = "http://" + window.location.host + "/static/custom/js/"
+  var url = "http://" + window.location.host + "/static/custom/jQuery/"
 
   $.getScript(url + "katexTag.js", function(){ 
     RenderKatexTag(); 

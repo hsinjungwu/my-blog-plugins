@@ -15,7 +15,7 @@
 
 function RenderKatexTag(){
   $("katex").each(function(){
-    var m = $(this).html();
+    var m = $(this).text();
     //if "superscript" set true
     //it will cause '^' become <sup></sup> 
     //m = m.replace("<sup>", "^").replace("</sup>", "");
